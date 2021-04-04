@@ -1,10 +1,10 @@
 import './App.css';
+import Header from './Components/Header_Bar/header.jsx'
 
 function App() {
   return (
     <div className="App">
-      <h1>Test</h1>
-      <h2> Test2</h2>
+      <Header />
     </div >
   );
 }
