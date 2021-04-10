@@ -10,7 +10,7 @@ export default function Work() {
 
     return (
         <div className={classes.header}>
-
+            <p>Work</p>
         </div>
     )
 }

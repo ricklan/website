@@ -1,5 +1,6 @@
 import { Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import { Link } from "react-router-dom";
 
 const useStyles = makeStyles((theme) => ({
     header: {
@@ -32,9 +33,17 @@ export default function Header() {
 
     return (
         <div className={classes.header}>
-            <Button className={classes.headerButton}> About Me </Button>
-            <Button className={classes.headerButton}> Work Experience </Button>
-            <Button className={classes.headerButton}> Past Projects </Button>
+            <Link to="/website/">
+                <Button className={classes.headerButton}> About Me </Button>
+            </Link>
+
+            <Link to="/website/project/">
+                <Button className={classes.headerButton}> Past Projects </Button>
+            </Link>
+
+            <Link to="/website/work/">
+                <Button className={classes.headerButton}> Work Experience </Button>
+            </Link>
         </div>
     )
 }
