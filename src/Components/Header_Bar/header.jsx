@@ -4,6 +4,7 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
     header: {
         display: "flex",
+        flexDirection: "row",
         justifyContent: "space-evenly",
         flexWrap: "wrap",
         marginTop: "2%",
@@ -18,7 +19,7 @@ const useStyles = makeStyles((theme) => ({
             fontSize: "1.5rem",
         },
         [theme.breakpoints.up("md")]: {
-            fontSize: "1.5rem",
+            fontSize: "2rem",
         },
         [theme.breakpoints.up("lg")]: {
             fontSize: "2rem",
@@ -34,7 +35,6 @@ export default function Header() {
             <Button className={classes.headerButton}> About Me </Button>
             <Button className={classes.headerButton}> Work Experience </Button>
             <Button className={classes.headerButton}> Past Projects </Button>
-            <Button className={classes.headerButton}> Contact Information </Button>
         </div>
     )
 }
