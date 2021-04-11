@@ -12,19 +12,24 @@ const useStyles = makeStyles((theme) => ({
     },
     headerButton: {
         color: "white",
+
         // For hovering
         '&:hover': {
-            color: "red",
+            color: "yellow",
+            fontStyle: "italic",
         },
         [theme.breakpoints.down("sm")]: {
-            fontSize: "1.5rem",
+            fontSize: "1.75rem",
         },
         [theme.breakpoints.up("md")]: {
-            fontSize: "2rem",
+            fontSize: "2.5rem",
         },
         [theme.breakpoints.up("lg")]: {
-            fontSize: "2rem",
+            fontSize: "2.75rem",
         },
+    },
+    link: {
+        textDecoration: "None"
     }
 }));
 
@@ -33,15 +38,15 @@ export default function Header() {
 
     return (
         <div className={classes.header}>
-            <Link to="/website/">
+            <Link className={classes.link} to="/website/">
                 <Button className={classes.headerButton}> About Me </Button>
             </Link>
 
-            <Link to="/website/project/">
+            <Link className={classes.link} to="/website/project/">
                 <Button className={classes.headerButton}> Past Projects </Button>
             </Link>
 
-            <Link to="/website/work/">
+            <Link className={classes.link} to="/website/work/">
                 <Button className={classes.headerButton}> Work Experience </Button>
             </Link>
         </div>

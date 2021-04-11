@@ -1,5 +1,5 @@
-import { Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
+import Header from "../Header_Bar/header"
 
 const useStyles = makeStyles((theme) => ({
 
@@ -10,7 +10,7 @@ export default function Project() {
 
     return (
         <div className={classes.header}>
-            <p>Projects</p>
+            <Header />
         </div>
     )
 }
