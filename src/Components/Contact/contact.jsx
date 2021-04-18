@@ -8,8 +8,8 @@ import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
     contact: {
-        color: "black",
-        backgroundColor: "white",
+        color: "white",
+        backgroundColor: "black",
         position: "relative",
         left: 0,
         bottom: 0,
@@ -37,7 +37,10 @@ const useStyles = makeStyles((theme) => ({
         justifyContent: "space-evenly"
     },
     socialMedia: {
-        color: "black",
+        color: "white",
+        "&:hover": {
+            color: "#009cda"
+        },
         [theme.breakpoints.down("sm")]: {
             fontSize: "2rem",
         },
@@ -75,6 +78,6 @@ export default function Contact() {
                     </a>
                 </Button>
             </div>
-        </div>
+        </div >
     )
 }
