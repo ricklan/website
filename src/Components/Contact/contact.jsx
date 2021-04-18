@@ -9,11 +9,11 @@ import { makeStyles } from '@material-ui/core/styles';
 const useStyles = makeStyles((theme) => ({
     contact: {
         color: "white",
-        backgroundColor: "black",
         position: "relative",
         left: 0,
         bottom: 0,
         width: "100%",
+        marginTop: "5%"
     },
     title: {
         textAlign: "center",
@@ -58,7 +58,7 @@ export default function Contact() {
 
     return (
         <div className={classes.contact}>
-            <p className={classes.title}>Contact Me At</p>
+            <p className={classes.title}>Contact Me</p>
             <div className={classes.footerSocialMedia}>
                 <Button>
                     <a rel="noreferrer" href="https://www.linkedin.com/in/rick-lan-00832b1a7/" target="_blank">

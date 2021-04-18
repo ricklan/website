@@ -10,6 +10,7 @@
     height: 100vh;
     font-size: 1.35rem;
     animation: show_title 2s ease-in-out;
+    margin-top: 0;
 }
 
 @keyframes show_title {

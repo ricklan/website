@@ -1,0 +1,40 @@
+.title{
+    text-align: center;
+    color: #009cda;
+    margin: 0;
+}
+
+@media only screen and (min-width: 280px){
+    #aboutMe{
+        font-size: 1rem;
+    }
+
+    #aboutMeTitle{
+        font-size: 1.4rem;
+    }
+}
+
+@media only screen and (min-width: 360px){
+
+    .title{
+        font-size: 1.75rem;
+    }
+}
+
+@media only screen and (min-width: 540px){
+    .title{
+        font-size: 2.5rem;
+    }
+}
+
+@media only screen and (min-width: 768px){
+    .title{
+        font-size: 3rem;
+    }
+}
+
+@media only screen and (min-width: 1024px){
+    .title{
+        font-size: 4rem;
+    }
+}
