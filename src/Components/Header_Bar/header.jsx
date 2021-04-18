@@ -1,3 +1,5 @@
+import "../../Global/global.css"
+
 import { Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from "react-router-dom";
@@ -22,15 +24,12 @@ const useStyles = makeStyles((theme) => ({
             fontSize: "1.75rem",
         },
         [theme.breakpoints.up("md")]: {
-            fontSize: "2.5rem",
+            fontSize: "2rem",
         },
         [theme.breakpoints.up("lg")]: {
-            fontSize: "2.75rem",
+            fontSize: "2.5rem",
         },
     },
-    link: {
-        textDecoration: "None"
-    }
 }));
 
 export default function Header() {
@@ -43,7 +42,7 @@ export default function Header() {
             </Link>
 
             <Link className={classes.link} to="/website/project/">
-                <Button className={classes.headerButton}> Past Projects </Button>
+                <Button className={classes.headerButton}> Projects </Button>
             </Link>
 
             <Link className={classes.link} to="/website/work/">
