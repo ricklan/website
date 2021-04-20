@@ -20,14 +20,15 @@ const useStyles = makeStyles((theme) => ({
         fontWeight: "bold",
         marginTop: "0",
         marginBottom: "0",
+        color: "#009cda",
         [theme.breakpoints.down("sm")]: {
             fontSize: "2rem",
         },
         [theme.breakpoints.up("md")]: {
-            fontSize: "3rem",
+            fontSize: "4rem",
         },
         [theme.breakpoints.up("lg")]: {
-            fontSize: "3rem",
+            fontSize: "4rem",
         },
     },
     footerSocialMedia: {
@@ -39,7 +40,7 @@ const useStyles = makeStyles((theme) => ({
     socialMedia: {
         color: "white",
         "&:hover": {
-            color: "#009cda"
+            color: "blue"
         },
         [theme.breakpoints.down("sm")]: {
             fontSize: "2rem",
@@ -48,7 +49,7 @@ const useStyles = makeStyles((theme) => ({
             fontSize: "2.5rem",
         },
         [theme.breakpoints.up("lg")]: {
-            fontSize: "2.5rem",
+            fontSize: "3.5rem"
         },
     }
 }));
@@ -58,7 +59,7 @@ export default function Contact() {
 
     return (
         <div className={classes.contact}>
-            <p className={classes.title}>Contact Me</p>
+            <div className={classes.title}>Contact Me</div>
             <div className={classes.footerSocialMedia}>
                 <Button>
                     <a rel="noreferrer" href="https://www.linkedin.com/in/rick-lan-00832b1a7/" target="_blank">
