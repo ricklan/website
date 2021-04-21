@@ -1,13 +1,8 @@
-#title{
-    color: #009cda;
-    font-weight: bold;
+#homepage{
     display: flex;
-    flex-wrap: wrap;
-    word-wrap: break-word;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    font-size: 1.35rem;
+    height: 105vh;
     animation: show_title 2s ease-in-out;
     margin-top: 0;
 }
@@ -16,28 +11,4 @@
     0% { opacity: 0; }
     50% { opacity: 0.5; }
     100% { opacity: 1; }
-}
-
-@media only screen and (min-width: 360px){
-    #title{
-        font-size: 1.75rem;
-    }
-}
-
-@media only screen and (min-width: 540px){
-    #title{
-        font-size: 2.5rem;
-    }
-}
-
-@media only screen and (min-width: 768px){
-    #title{
-        font-size: 3.5rem;
-    }
-}
-
-@media only screen and (min-width: 1024px){
-    #title{
-        font-size: 5rem;
-    }
 }

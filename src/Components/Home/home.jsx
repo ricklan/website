@@ -4,6 +4,8 @@ import "./home.css"
 export default function Home() {
 
     return (
-        <h1 id="title">Welcome to my website</h1>
+        <div id="homepage">
+            <h1 className="title">Welcome to my website</h1>
+        </div>
     )
 }

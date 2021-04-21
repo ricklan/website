@@ -9,7 +9,7 @@ a {
     color: blue;
 }
 
-a :visited {
+a:visited {
     text-decoration: none;
 }
 

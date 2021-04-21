@@ -3,6 +3,7 @@ import "../../Global/global.css"
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
+import DescriptionIcon from '@material-ui/icons/Description';
 import { Button } from '@material-ui/core';
 import { makeStyles } from '@material-ui/core/styles';
 
@@ -76,6 +77,12 @@ export default function Contact() {
                 <Button>
                     <a rel="noreferrer" href="https://github.com/RLQYL" target="_blank">
                         <GitHubIcon className={classes.socialMedia}></GitHubIcon>
+                    </a>
+                </Button>
+
+                <Button>
+                    <a rel="noreferrer" href="https://github.com/ricklan/website/blob/master/Static/Resume.pdf" target="_blank">
+                        <DescriptionIcon className={classes.socialMedia}></DescriptionIcon>
                     </a>
                 </Button>
             </div>
