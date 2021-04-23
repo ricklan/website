@@ -24,7 +24,7 @@ export default function Project() {
                 <div className="project">
                     <div className="project_title">The Cafe</div>
                     <div className="project_desc">
-                        I worked in a team of 3 to create The Cafe, an Omegle-like application where users with each other based on their age, gender, ethnicity and interests. We used React for the frontend, Express.js for the backend, PeerJS to faciliate peer to peer communication (text/audio/video) and Socket.io for matching users and creating rooms.
+                        I worked in a team of 3 to create The Cafe, an Omegle-like application where users connect with each other based on their age, gender, ethnicity and interests. We used React for the frontend, Express.js for the backend, PeerJS to faciliate peer to peer communication (text/audio/video) and Socket.io for matching users and creating rooms.
                         The app was deployed on DigitalOcean and we containerized both the frontend and backend using Docker and used Nginx as a reverse proxy.
                         <br></br>
                         <b>Link:</b> <a href="https://thecafe.ml/">The Cafe</a>
