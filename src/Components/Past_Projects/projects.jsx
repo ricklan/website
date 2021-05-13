@@ -25,7 +25,7 @@ export default function Project() {
                 <div className="project">
                     <div className="project_title">SportsCred</div>
                     <div className="project_desc">
-                        I worked in a team of 6 to create SportsCred, a Reddit-like social media platform where sports enthusiast can create posts, play sports trivia games, make prediction for the upcoming season and debate with one another, for a client. We used Angular for the frontend and Django as well as a Postgresql database for the backend. The client loved our project and wanted to use our code as the basis for their startup.<br></br>
+                        I worked in a team of 6 to create SportsCred, a Reddit-like social media platform where sports enthusiast can create posts, play sports trivia games, make prediction for the upcoming season and debate with one another, for a client. We used Angular for the frontend and Django connected to a Postgresql database for the backend. The client loved our project and wanted to use our code as the basis for their startup.<br></br>
                         <b>Link:</b> <a href="https://github.com/UTSCCSCC01/project-lilypad">SportsCred</a>
                     </div>
                 </div>
@@ -33,7 +33,7 @@ export default function Project() {
                 <div className="project">
                     <div className="project_title">Notes Website</div>
                     <div className="project_desc">
-                        I created a website to publish my notes for various classes at UofT. The website is written in HTML, JavaScript and CSS and hosted on Github pages. Friends and colleagues who used my website to study noticed a 5-10% increase in their marks. <br></br>
+                        I created a website, in HTML, JavaScript and CSS, to publish my notes for various classes at UofT. Friends and colleagues who used my website to study noticed a 5-10% increase in their marks. <br></br>
                         <b>Link:</b> <a href="https://rlqyl.github.io/">Notes Website</a>
                     </div>
                 </div>
