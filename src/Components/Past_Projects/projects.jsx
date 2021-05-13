@@ -11,15 +11,6 @@ export default function Project() {
             <h1 className="title"> Past Projects </h1>
 
             <div id="cards">
-                <div className="project">
-                    <div className="project_title">Personal Website</div>
-                    <div className="project_desc">
-                        I created a personal website to showcase my accomplishments both academically and professionally.
-                        The website is written in React and deployed using Github pages.
-                        <br></br>
-                        <b>Link:</b> <a href="https://ricklan.github.io/website/">My Personal Website</a>
-                    </div>
-                </div>
 
                 <div className="project">
                     <div className="project_title">The Cafe</div>

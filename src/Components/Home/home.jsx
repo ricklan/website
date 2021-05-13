@@ -5,7 +5,7 @@ export default function Home() {
 
     return (
         <div id="homepage">
-            <h1 className="title">Welcome to my website</h1>
+            <h1 id="home_title">Welcome to my website</h1>
         </div>
     )
 }

@@ -41,7 +41,7 @@ const useStyles = makeStyles((theme) => ({
     socialMedia: {
         color: "white",
         "&:hover": {
-            color: "blue"
+            color: "lightblue"
         },
         [theme.breakpoints.down("sm")]: {
             fontSize: "2rem",
