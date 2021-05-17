@@ -21,10 +21,11 @@
   margin-left: 5px;
   margin-bottom: 50px;
   border-radius: 4px;
-  min-height: 25rem;
+  min-height: 30rem;
   line-height: 1.3;
   display: block;
   box-shadow: 5px 10px grey;
+  padding-bottom: 30px;
 }
 
 .project:hover {
@@ -104,10 +105,10 @@
     justify-content: flex-start;
   }
   .project {
-    width: 25%;
+    width: 30%;
     margin: 36px 36px 0 50px;
     position: relative;
-    min-height: 30rem;
+    min-height: 35rem;
   }
 
   .project_title {

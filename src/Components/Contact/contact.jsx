@@ -1,4 +1,5 @@
 import "../../Global/global.css"
+import Resume from "../../Static/Resume.pdf"
 
 import GitHubIcon from '@material-ui/icons/GitHub';
 import EmailIcon from '@material-ui/icons/Email';
@@ -41,7 +42,7 @@ const useStyles = makeStyles((theme) => ({
     socialMedia: {
         color: "white",
         "&:hover": {
-            color: "lightblue"
+            color: "#007bff"
         },
         [theme.breakpoints.down("sm")]: {
             fontSize: "2rem",
@@ -81,7 +82,7 @@ export default function Contact() {
                 </Button>
 
                 <Button>
-                    <a rel="noreferrer" href="https://github.com/ricklan/website/blob/master/Static/Resume.pdf" target="_blank">
+                    <a rel="noreferrer" href={Resume} target="_blank">
                         <DescriptionIcon className={classes.socialMedia}></DescriptionIcon>
                     </a>
                 </Button>
