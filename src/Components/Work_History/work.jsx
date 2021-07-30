@@ -6,15 +6,37 @@ export default function Work() {
   return (
     <div>
       <h1 className="title"> Work Experience & Extracurriculars </h1>
+      <p> Click on each box for more info </p>
 
       <div className="timeline">
         {/* PSPC */}
         <div className="container left">
           <div className="event">
             <p className="place">
-              <b> Web Developer at PSPC </b> <br></br> (May 2021 - January 2022)
+              <b> Fullstack Developer at PSPC </b> <br></br> (May 2021 - January
+              2022)
             </p>
-            <ul className="description"></ul>
+            <ul className="description">
+              <li className="task">
+                Designed and implemented an Excel-like editable table, using
+                Vue, Laravel and SQL, that allows users, crown corporations, to
+                easily enter their financial information
+              </li>
+
+              <li className="task">
+                Updated the PSPC website to make it more attractive and user
+                friendly
+              </li>
+
+              <li className="task">
+                Took the initative to create a GIT command-line guide for my
+                team and assist team members with GIT issues
+              </li>
+
+              <li className="task">
+                Taught web dev and SQL to other coop students
+              </li>
+            </ul>
           </div>
         </div>
 

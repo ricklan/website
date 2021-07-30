@@ -5,7 +5,7 @@ import "../../Global/title.css";
 export default function Project() {
   return (
     <div id="projects">
-      <h1 className="title"> Past Projects </h1>
+      <h1 className="title"> Academic Projects </h1>
 
       <div id="cards">
         <div className="project">
@@ -26,7 +26,7 @@ export default function Project() {
             calls using Axios and used PeerJS to faciliate peer to peer text,
             audio and video chat.
             <br></br> <br></br>
-            <b>Link:</b>
+            <b>Link: </b>
             <a href="https://github.com/ricklan/The-Cafe">The Cafe</a>
           </div>
         </div>
