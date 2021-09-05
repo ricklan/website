@@ -148,11 +148,11 @@
     justify-content: flex-start;
   }
   .project {
-    width: 30%;
+    width: 40%;
     margin: 36px 36px 0 50px;
     position: relative;
     min-height: 35rem;
-    height: 50rem;
+    height: 35rem;
   }
 
   .project_title {

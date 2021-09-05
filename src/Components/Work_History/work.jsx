@@ -18,23 +18,27 @@ export default function Work() {
             </p>
             <ul className="description">
               <li className="task">
-                Designed and implemented an Excel-like editable table, using
-                Vue, Laravel and SQL, that allows users, crown corporations, to
-                easily enter their financial information
+                Designed a financial reporting template using Vue, Laravel, and
+                Microsoft SQL Server achieving a 75% reduction in submission
+                time for clients
               </li>
 
               <li className="task">
-                Updated the PSPC website to make it more attractive and user
-                friendly
+                Overhauled several websites by refactoring their codebase to
+                make it more readable, modular and efficient, improving response
+                times by 30%
               </li>
 
               <li className="task">
-                Took the initative to create a GIT command-line guide for my
-                team and assist team members with GIT issues
+                Developed Shell scripts to automate time consuming work,
+                increasing my team’s productivity by 20%
               </li>
 
               <li className="task">
-                Taught web dev and SQL to other coop students
+                Spearheaded the initiative to update my team’s internal
+                documentation, create a Git guide and teach web development and
+                SQL to other interns, allowing them to start working earlier by
+                1 month
               </li>
             </ul>
           </div>
@@ -59,13 +63,8 @@ export default function Work() {
               </li>
 
               <li className="task">
-                Students who used my notes received a mark 5-10% higher than the
-                class average
-              </li>
-
-              <li className="task">
-                Took the initative to regularly update my team's documentation,
-                create a Unix training guide and mentor new teammates
+                Increased the marks of students who used my notes to study by
+                10%
               </li>
             </ul>
           </div>
@@ -85,19 +84,18 @@ export default function Work() {
               </li>
 
               <li className="task">
-                Triaged and resolved complex software issues as well as assist
-                with patching and deployment by communicating effectively with
-                other teams
+                Resolved complex software issues and led deployment changes by
+                communicating effectively with other teams
               </li>
 
               <li className="task">
-                Saved my team hundreds of hours by designing and developing a
-                Python library to automate tedious tasks
+                Led the initiative to create a Unix training guide and train new
+                team members, allowing them to start working earlier by 2 months
               </li>
 
               <li className="task">
-                Took the initiative to update my team’s documentations, create a
-                Unix training package and provide training to new team members
+                Implemented a Python library to automate labour&nbsp;intensive
+                tasks, increasing my team’s productivity by over 25%
               </li>
             </ul>
           </div>
@@ -111,9 +109,13 @@ export default function Work() {
             </p>
             <ul className="description">
               <li className="task">
-                Created a static website to publish and distribute my notes for
-                various classes at UofT. Friends and colleagues who used my
-                website to study noticed a 3-5% increase in their marks.
+                Deployed a website using Github Pages to publish and distribute
+                my notes for various classes at UofT
+              </li>
+
+              <li className="task">
+                Increased the marks of students who used my notes to study by
+                10%
               </li>
 
               <li className="task">
