@@ -74,7 +74,7 @@ export default function Work() {
         <div className="container left">
           <div className="event">
             <p className="place">
-              <b> IT Analyst at TD Canada Trust </b> <br></br> (May 2019 -
+              <b> L2 IT Analyst at TD Canada Trust </b> <br></br> (May 2019 -
               January 2020)
             </p>
             <ul className="description">
