@@ -83,7 +83,7 @@ export default function Contact() {
         </Button>
 
         <Button>
-          <a rel="noreferrer" href="https://github.com/RLQYL" target="_blank">
+          <a rel="noreferrer" href="https://github.com/ricklan" target="_blank">
             <GitHubIcon className={classes.socialMedia}></GitHubIcon>
           </a>
         </Button>
