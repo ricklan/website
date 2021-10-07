@@ -5,10 +5,37 @@ import "../../Global/title.css";
 export default function Work() {
   return (
     <div>
-      <h1 className="title"> Work Experience & Extracurriculars </h1>
+      <h1 className="title"> Work Experience </h1>
       <p> Click on each box for more info </p>
 
       <div className="timeline">
+        {/* CSCC43 TA */}
+        <div className="container right">
+          <div className="event">
+            <p className="place">
+              <b> Teaching Assistant at UTSC </b> <br></br> (Sept 2021 - January
+              2022)
+            </p>
+            <ul className="description">
+              <li className="task">
+                Taught SQL, ER diagrams and database design practices to 50% of
+                the class, helping them understand concepts and lecture
+                materials better
+              </li>
+
+              <li className="task">
+                Took the initiative to create and publish supplemental lecture
+                notes, helping 15% more students understand the concepts better
+              </li>
+
+              <li className="task">
+                Answered questions on the course discussion board quickly,
+                decreasing wait time by 20%
+              </li>
+            </ul>
+          </div>
+        </div>
+
         {/* PSPC */}
         <div className="container left">
           <div className="event">
@@ -44,34 +71,8 @@ export default function Work() {
           </div>
         </div>
 
-        {/* Note Taker */}
-        <div className="container right">
-          <div className="event">
-            <p className="place">
-              <b> Accessibility Note Taker </b> <br></br> (January 2021 - April
-              2021)
-            </p>
-            <ul className="description">
-              <li className="task">
-                Volunteered to provide academic aid to students who require
-                learning accommodations
-              </li>
-
-              <li className="task">
-                Attended weekly lectures and uploaded error free notes within 24
-                hours
-              </li>
-
-              <li className="task">
-                Increased the marks of students who used my notes to study by
-                10%
-              </li>
-            </ul>
-          </div>
-        </div>
-
         {/* TD Work */}
-        <div className="container left">
+        <div className="container right">
           <div className="event">
             <p className="place">
               <b> L2 IT Analyst at TD&nbsp;Canada&nbsp;Trust </b> <br></br> (May
@@ -102,7 +103,7 @@ export default function Work() {
         </div>
 
         {/* Website */}
-        <div className="container right">
+        <div className="container left">
           <div className="event">
             <p className="place">
               <b> UofT Notes Website </b> <br></br> (January 2017 - Present)

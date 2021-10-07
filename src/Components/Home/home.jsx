@@ -13,8 +13,8 @@ export default function Home() {
         <h1 id="home_title">Welcome to my website</h1>
       </div>
       <AboutMe />
-      <Project />
       <Work />
+      <Project />
       <Contact />
     </div>
   );
