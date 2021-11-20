@@ -65,7 +65,7 @@ export default function Work() {
                 Spearheaded the initiative to update my team’s internal
                 documentation, create a Git guide and teach web development and
                 SQL to other interns, allowing them to start working earlier by
-                1 month
+                25%
               </li>
             </ul>
           </div>
