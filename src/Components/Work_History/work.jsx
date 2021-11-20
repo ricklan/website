@@ -64,8 +64,7 @@ export default function Work() {
               <li className="task">
                 Spearheaded the initiative to update my team’s internal
                 documentation, create a Git guide and teach web development and
-                SQL to other interns, allowing them to start working earlier by
-                25%
+                SQL to other interns, reducing their training time by 25%
               </li>
             </ul>
           </div>
