@@ -9,12 +9,38 @@ export default function Work() {
       <p> Click on each box for more info </p>
 
       <div className="timeline">
+        {/* CSCB20 TA */}
+        <div className="container left">
+          <div className="event">
+            <p className="place">
+              <b> UTSC Teaching Assistant for CSCB20 </b> <br></br> (January -
+              April 2022)
+            </p>
+            <ul className="description">
+              <li className="task">
+                Taught SQL, HTML, CSS, JavaScript and Flask 50% of the class,
+                helping them understand concepts and lecture materials better
+              </li>
+
+              <li className="task">
+                Took the initiative to create and publish supplemental lecture
+                videos on web dev and SQL, helping 30% more students understand
+                the concepts better
+              </li>
+
+              <li className="task">
+                Answered questions on the course discussion board quickly,
+                decreasing wait time by 20%
+              </li>
+            </ul>
+          </div>
+        </div>
         {/* CSCC43 TA */}
         <div className="container right">
           <div className="event">
             <p className="place">
-              <b> Teaching Assistant at UTSC </b> <br></br> (Sept 2021 - January
-              2022)
+              <b> UTSC Teaching Assistant for CSCC43 </b> <br></br> (Sept 2021 -
+              January 2022)
             </p>
             <ul className="description">
               <li className="task">

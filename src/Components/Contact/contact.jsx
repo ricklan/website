@@ -66,7 +66,7 @@ export default function Contact() {
         <Button>
           <a
             rel="noreferrer"
-            href="https://www.linkedin.com/in/rick-lan-00832b1a7/"
+            href="https://www.linkedin.com/in/rick-lan/"
             target="_blank"
           >
             <LinkedInIcon
