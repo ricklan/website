@@ -92,7 +92,7 @@ const info = {
 
 let counter = 1;
 function getDirection() {
-  let direction = counter % 2 === 0 ? "left" : "right";
+  let direction = counter % 2 === 0 ? "right" : "left";
   counter += 1;
   return direction;
 }
