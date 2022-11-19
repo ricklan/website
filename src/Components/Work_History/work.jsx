@@ -4,7 +4,7 @@ import "../../Global/title.css";
 
 const info = {
   Amazon: {
-    company: "Amazon Retail",
+    company: "Amazon Supply Chain",
     position: "SDE 1",
     languages: ["Springboot", "React", "TypeScript", "Git", "AWS"],
     tenure: "June - Nov 2022",
@@ -19,7 +19,7 @@ const info = {
   },
   CSCB20: {
     company: "UTSC",
-    position: "CSCB20 Teaching Assistant",
+    position: "CSCB20 TA",
     languages: [
       "HTML",
       "CSS",
@@ -41,7 +41,7 @@ const info = {
   },
   CSCC43: {
     company: "UTSC",
-    position: "CSCC43 Teaching Assistant",
+    position: "CSCC43 TA",
     languages: [
       "SQL",
       "PostgreSQL",
