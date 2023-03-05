@@ -3,6 +3,23 @@ import "../../Global/global.css";
 import "../../Global/title.css";
 
 const info = {
+  AWS_QS: {
+    company: "AWS QuickSight",
+    position: "FEE 1",
+    languages: ["React", "TypeScript"],
+    tenure: "Nov 2022 - Present",
+    tasks: {
+      task1:
+        "Enhanced AWS QuickSight's frontend using React combined with Typescript",
+      task2:
+        "Refactored codebase and removed unused legacy code to decrease latency by 10%",
+      task3:
+        "Researched and authored a document on best practices for React Testing Library, " +
+        "helping 15% more software engineers get familiar with it",
+      task4:
+        "Increased code coverage by 10% by writing unit and integration tests using Jest and React Testing Library",
+    },
+  },
   Amazon: {
     company: "Amazon Supply Chain",
     position: "SDE 1",
@@ -10,11 +27,18 @@ const info = {
     tenure: "June - Nov 2022",
     tasks: {
       task1:
-        "Decreased traffic latency by 20% by migrating the usage of a new Amazon translation tool",
+        "Maintained and updated an internal portal using SpringBoot, React combined with Typescript, " +
+        "AWS DynamoDB and AWS S3 that allows vendors to ship their products all over the world",
       task2:
-        "Reduced customer complaints by 50% by investigating and fixing the root causes of the most common user defects",
+        "Decreased traffic latency by 5% by migrating the usage of a new internal translation tool",
       task3:
-        "Coordinated and led a major project across half a dozen teams to ensure 25% more vendors are paid on time",
+        "Authored an oncall runbook helping new employees get started earlier by 33%",
+      task4:
+        "Coordinated a major project across 8 teams to ensure 25% more vendors are paid on time",
+      task5:
+        "Increased code coverage by 5% by writing unit tests using Junit and Mockito",
+      task6:
+        "Onboarded 2 new colleagues and helped them understand the product and codebase",
     },
   },
   CSCB20: {
