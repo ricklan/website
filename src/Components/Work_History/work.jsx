@@ -1,145 +1,96 @@
+import { useRef } from "react";
+
 import "./work.css";
 import "../../Global/global.css";
 import "../../Global/title.css";
 
-const info = {
-  AWS_QS: {
+const info = [
+  {
     company: "AWS QuickSight",
-    position: "FEE 1",
-    languages: ["React", "TypeScript"],
-    tenure: "Nov 2022 - Present",
-    tasks: {
-      task1:
-        "Enhanced AWS QuickSight's frontend using React combined with Typescript",
-      task2:
-        "Refactored codebase and removed unused legacy code to decrease latency by 10%",
-      task3:
-        "Researched and authored a document on best practices for React Testing Library, " +
-        "helping 15% more software engineers get familiar with it",
-      task4:
-        "Increased code coverage by 10% by writing unit and integration tests using Jest and React Testing Library",
-    },
+    position: "Frontend Engineer 1",
+    time: "Nov 2022 - Present",
+    tasks: [
+      "Developed and maintained an internal React component library built on Material-UI that supports over 60 reusable, aesthetic frontend components that is used by over a dozen teams at AWS Quicksight",
+      "Designed and implemented a new Visual Type Selector using React, TypeScript, Jest and React Testing Library that is used by over 20,000 users to create different types of charts on analyses and dashboards, improving user experience by 20%",
+    ],
   },
-  Amazon: {
+  {
     company: "Amazon Supply Chain",
-    position: "SDE 1",
-    languages: ["Springboot", "React", "TypeScript", "Git", "AWS"],
-    tenure: "June - Nov 2022",
-    tasks: {
-      task1:
-        "Maintained and updated an internal portal using SpringBoot, React combined with Typescript, " +
-        "AWS DynamoDB and AWS S3 that allows vendors to ship their products all over the world",
-      task2:
-        "Decreased traffic latency by 5% by migrating the usage of a new internal translation tool",
-      task3:
-        "Authored an oncall runbook helping new employees get started earlier by 33%",
-      task4:
-        "Coordinated a major project across 8 teams to ensure 25% more vendors are paid on time",
-      task5:
-        "Increased code coverage by 5% by writing unit tests using Junit and Mockito",
-      task6:
-        "Onboarded 2 new colleagues and helped them understand the product and codebase",
-    },
+    position: "Software Engineer 1",
+    time: "June - Nov 2022",
+    tasks: [
+      "Developed a shipment booking portal used by over 300 Amazon vendors to make the booking process simple and efficient",
+      "Implemented a new booking system using SpringBoot, React, Typescript, and AWS DynamoDB, with complete ownership of the entire process (design, development, unit and end-to-end testing), to ensure vendors are paid on time for their merchandise, preventing them from taking on expensive loans and reducing their expenses by $7 million per year, collectively",
+      "Took the initiative to create an oncall runbook and an end-to-end business flow chart, reducing the investigation time of common tickets by 90% and allowing new employees to start oncall 1 month earlier",
+    ],
   },
-  CSCB20: {
+  {
     company: "UTSC",
     position: "CSCB20 TA",
-    languages: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Flask",
-      "SQL",
-      "Git",
-      "Web Development",
+    time: "January - April 2022",
+    tasks: [
+      "Teaching assistant to 2 tutorials of 20 students each, educating them on HTML, JavaScript, CSS, Flask, SQL, web development and Git, and receiving a TA evaluation score of 4.5/5",
+      "Pioneered the usage of cloud platforms by getting students to deploy their final project on Heroku, giving students their first introduction into cloud computing and experience with deploying a fullstack web application",
     ],
-    tenure: "January - April 2022",
-    tasks: {
-      task1:
-        "Taught HTML, CSS, JavaScript, Flask, SQL, Git and Web Development to 50% of the class, helping them understand concepts and lecture materials better",
-      task2:
-        "Took the initiative to create and publish supplemental lecture videos on web development and SQL, helping 75% more students understand the concepts better",
-      task3:
-        "Answered questions on the course discussion board quickly, decreasing wait time by 20%",
-    },
   },
-  CSCC43: {
+  {
     company: "UTSC",
     position: "CSCC43 TA",
-    languages: [
-      "SQL",
-      "PostgreSQL",
-      "ER Diagrams",
-      "Database Design Principles",
+    time: "Sept 2021 - January 2022",
+    tasks: [
+      "Teaching assistant to 2 tutorials of 20 students each, educating them on SQL, Database design, and ER diagrams, and receiving a TA evaluation score of 4.5/5",
+      "Took the initiative to create and publish supplemental lecture notes, helping 60% more students understand the concepts better",
+      "Answered questions on the course discussion board quickly, decreasing wait time by 20%",
     ],
-    tenure: "Sept 2021 - January 2022",
-    tasks: {
-      task1:
-        "Taught SQL, ER diagrams and database design practices to 50% of the class, helping them understand concepts and lecture materials better",
-      task2:
-        "Took the initiative to create and publish supplemental lecture notes, helping 60% more students understand the concepts better",
-      task3:
-        "Answered questions on the course discussion board quickly, decreasing wait time by 20%",
-    },
   },
-  PSPC: {
+  {
     company: "PSPC",
-    position: "Fullstack Developer",
-    languages: ["Vue.JS", "Laravel", "Microsoft SQL Server", "Git/Bitbucket"],
-    tenure: "May 2021 - January 2022",
-    tasks: {
-      task1:
-        "Designed a financial reporting template using Vue, Laravel, and Microsoft SQL Server achieving a 75% reduction in submission time for clients",
-      task2:
-        "Overhauled several websites by refactoring their codebase to make it more readable, modular and efficient, improving response times by 30%",
-      task3:
-        "Spearheaded the initiative to update my team's internal documentation, create a Git guide and teach web development and SQL to other interns, reducing their training time by 25%",
-    },
+    position: "Software Engineer Intern",
+    time: "May 2021 - January 2022",
+    tasks: [
+      "Engineered a financial reporting system using Vue, Laravel, and Microsoft SQL Server that streamlines the financial reporting process for crown corporations, reducing the entire process by 3 hours",
+      "Mentored 5 interns by taking the initiative to educate them on Git, web development fundamentals and SQL, increasing their productivity and empowering them to contribute effectively to the team's projects",
+    ],
   },
-  TD: {
+  {
     company: "TD Canada Trust",
     position: "L2 IT Analyst",
-    languages: ["Python", "Unix"],
-    tenure: "May 2019 - January 2020",
-    tasks: {
-      task1:
-        "Worked in a fast paced environment to provide support for web applications run on Unix servers, improving uptime to 95%",
-      task2:
-        "Coordinated deployment of new features with multiple teams to minimize effort and ensure completion within 8 hours",
-      task3:
-        "Reduced onboarding time for new team members by 50% by spearheading the initiative to author a holistic training and documentation package",
-      task4:
-        "Increased my team's productivity by over 75% by implementing a Python library to automate labour intensive tasks",
-    },
+    time: "May 2019 - January 2020",
+    tasks: [
+      "Worked in a fast paced environment to provide support for web applications run on Unix servers, improving uptime to 95%",
+      "Increased my team's productivity by over 75% by implementing a Python library to automate labour intensive tasks",
+    ],
   },
-};
-
-let counter = 1;
-function getDirection() {
-  let direction = counter % 2 === 0 ? "right" : "left";
-  counter += 1;
-  return direction;
-}
+];
 
 export default function Work() {
+  const counter = useRef(1);
+
+  const getDirection = () => {
+    const direction = counter.current % 2 === 0 ? "right" : "left";
+    counter.current += 1;
+    return direction;
+  };
+
   return (
     <div>
       <h1 className="title"> Work Experience </h1>
 
       <div className="timeline">
-        {Object.keys(info).map((key, i) => {
+        {info.map((key, i) => {
+          const { company, position, time, tasks } = key;
+          const direction = getDirection();
           return (
-            <div className={"container " + getDirection()} key={i}>
+            <div className={`container ${direction}`} key={i}>
               <div className="event">
                 <p className="place">
-                  <b>{info[key].company}</b> - {info[key].position} <br></br> (
-                  {info[key].tenure})
+                  <b>{company}</b> - {position} <br></br> ({time})
                 </p>
-
-                {/* Tasks */}
-                {Object.keys(info[key].tasks).map((taskKey, i) => {
-                  return <p key={i}> {info[key].tasks[taskKey]} </p>;
-                })}
+                <ul>
+                  {tasks.map((taskKey, i) => {
+                    return <li key={i}>{taskKey}</li>;
+                  })}
+                </ul>
               </div>
             </div>
           );

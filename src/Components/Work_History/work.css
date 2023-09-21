@@ -4,7 +4,7 @@
 
 .timeline {
   position: relative;
-  max-width: 1200px;
+  max-width: 1500px;
   margin: 0 auto;
 }
 
@@ -88,7 +88,7 @@
   background-color: white;
   position: relative;
   border-radius: 6px;
-  padding: 20px 30px;
+  padding: 20px 40px;
 }
 
 .place {
@@ -101,7 +101,6 @@
 }
 
 ul {
-  list-style-type: none;
   padding: 0;
 }
 
